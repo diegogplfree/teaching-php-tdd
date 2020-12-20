@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit    colors = "true"
+            verbose = "true">
+    <coverage>
+        <include>
+            <directory suffix=".php">./src</directory>
+        </include>
+        <report>
+            <clover outputFile="./log/clover.xml" />
+            <crap4j outputFile="./log/crap4j.xml" threshold="50"/>
+            <html outputDirectory="log" lowUpperBound="50" highLowerBound="90"/>
+            <php outputFile="./log/coverage.php"/>
+            <text outputFile="./log/coverage.txt" showUncoveredFiles="false" showOnlySummary="true"/>
+            <xml outputDirectory="xml-coverage"/>
+        </report>       
+    </coverage>
+</phpunit>
+<!--we will need this file later in our CI process!!-->

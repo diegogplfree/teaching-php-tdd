@@ -1,0 +1,24 @@
+{
+    "name": "darboleda/strategy",
+    "require": {
+        "phpunit/phpunit": "^9.4",
+        "squizlabs/php_codesniffer": "*",
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "phploc/phploc": "^7.0",
+        "sebastian/phpcpd": "^6.0",
+        "phpmd/phpmd": "^2.9",
+        "pdepend/pdepend": "^2.8"
+    },
+    "authors": [
+        {
+            "name": "Diego Arboleda",
+            "email": "diego.gpl.free@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Src\\": "src/"}
+    },
+    "require-dev": {
+        "php-parallel-lint/php-parallel-lint": "^1.2"
+    }
+}
