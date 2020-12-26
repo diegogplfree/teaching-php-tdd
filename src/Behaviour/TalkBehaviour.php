@@ -16,7 +16,7 @@ class TalkBehaviour implements SpeakBehaviour
      *
      * @author  Diego Arboleda <ing.diego.fernando.arboleda@gmail.com>
      */
-    public function speak(): string
+    private function speak(): string
     {
         return "Hi!!";
     }
